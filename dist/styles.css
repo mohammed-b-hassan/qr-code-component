@@ -69,6 +69,12 @@ body {
   font-weight: 700;
 }
 
+.u-heading {
+  font-size: 25px;
+  text-align: center;
+  margin-block: 40px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: [edge-start] minmax(2em, 1fr) [breakout-start] minmax(0, 5ch) [content-start] min(100% - 4em, 75ch) [content-end] minmax(0, 5ch) [breakout-end] minmax(2em, 1fr) [edge-end];
@@ -94,7 +100,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  margin-block: 5%;
 }
 
 .card {
